@@ -3,9 +3,10 @@ package com.userregistration;
 public class UserRegistration {
 
 
-    private static final String FIRST_NAME_PATTERN ="^[A-Z][a-z]{2,}$";
+    private static final String PATTERN_FIRSTNAME ="^[A-Z][a-z]{2,}$";
+
 
     public static boolean checkFirstName(String firstName) {
-         return firstName.matches(FIRST_NAME_PATTERN);
+         return firstName.matches(PATTERN_FIRSTNAME);
     }
 }
