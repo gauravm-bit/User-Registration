@@ -21,9 +21,14 @@ public class UserRegistrationTest {
 
     @Test
     public void givenLastName_whenInValid_thenFalse() {
+
         Assert.assertFalse(UserRegistration.checkLastName("marathe"));
     }
 
+    @Test
+    public void givenEmail_whenValid_thenTrue() {
+        Assert.assertTrue(UserRegistration.checkEmail("gaurav.mbit@github.io.in"));
+    }
 
 
 }
