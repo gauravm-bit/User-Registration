@@ -30,5 +30,9 @@ public class UserRegistrationTest {
         Assert.assertTrue(UserRegistration.checkEmail("gaurav.mbit@github.io.in"));
     }
 
+    @Test
+    public void giveNumber_whenValid_thenTrue() {
+        Assert.assertTrue(UserRegistration.checkNumber("91 9769450660"));
+    }
 
 }
