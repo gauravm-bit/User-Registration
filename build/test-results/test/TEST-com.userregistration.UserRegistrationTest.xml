@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-24T18:05:23" hostname="HP" time="0.013">
+<testsuite name="com.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-24T18:21:37" hostname="HP" time="0.008">
   <properties/>
-  <testcase name="giveNumber_whenValid_thenTrue" classname="com.userregistration.UserRegistrationTest" time="0.013"/>
+  <testcase name="givePassword_whenValid_thenTrue" classname="com.userregistration.UserRegistrationTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -35,4 +35,9 @@ public class UserRegistrationTest {
         Assert.assertTrue(UserRegistration.checkNumber("91 9769450660"));
     }
 
+    @Test
+    public void givePassword_whenValid_thenTrue() {
+        Assert.assertTrue(UserRegistration.checkPassword("akjsdhhhas"));
+    }
+
 }
