@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-24T18:05:23" hostname="HP" time="0.013">
+<testsuite name="com.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-25T17:54:43" hostname="HP" time="0.01">
   <properties/>
-  <testcase name="giveNumber_whenValid_thenTrue" classname="com.userregistration.UserRegistrationTest" time="0.013"/>
+  <testcase name="ginNumber_whenInvalid_thenFalse" classname="com.userregistration.UserRegistrationTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -31,8 +31,12 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void giveNumber_whenValid_thenTrue() {
+    public void givenNumber_whenValid_thenTrue() {
         Assert.assertTrue(UserRegistration.checkNumber("91 9769450660"));
     }
 
+    @Test
+    public void ginNumber_whenInvalid_thenFalse(){
+        Assert.assertFalse(UserRegistration.checkNumber("696969696996969"));
+    }
 }
