@@ -30,5 +30,9 @@ public class UserRegistrationTest {
         Assert.assertTrue(UserRegistration.checkEmail("gaurav.mbit@github.io.in"));
     }
 
+    @Test
+    public void givenEmail_whenInvalid_thenFalse() {
+        Assert.assertFalse(UserRegistration.checkEmail("Guarba.@@orkut#@."));
+    }
 
 }
