@@ -37,7 +37,7 @@ public class UserRegistrationTest {
 
     @Test
     public void givePassword_whenValid_thenTrue() {
-        Assert.assertTrue(UserRegistration.checkPassword("akjsdhhhaFDSs"));
+        Assert.assertTrue(UserRegistration.checkPassword("akjsDF1#"));
     }
 
     @Test

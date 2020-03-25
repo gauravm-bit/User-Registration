@@ -8,6 +8,7 @@ public class UserRegistration {
     private static final String PATTERN_NUMBER ="^[0-9]{2}[ ][0-9]{10}$";
     private static final String PATTERN_PASSWORD ="[a-zA-Z0-9]{8,}";
     private static final String PATTERN_PASSWORD2 ="[a-zA-Z0-9]*[A-Z][a-zA-Z0-9]*";
+    private static final String PATTERN_PASSWORD3 ="^[a-zA-Z0-9]*[@#$%&]{1}[a-zA-Z0-9]*$";
 
     public static boolean checkFirstName(String firstName) {
          return firstName.matches(PATTERN_NAME);
@@ -27,7 +28,7 @@ public class UserRegistration {
 
     public static boolean checkPassword(String password) {
         boolean flag = false;
-        if (password.matches(PATTERN_PASSWORD) && password.matches(PATTERN_PASSWORD2)) {
+        if (password.matches(PATTERN_PASSWORD) && password.matches(PATTERN_PASSWORD2) && password.matches(PATTERN_PASSWORD3)) {
             flag = true;
         }
         return flag;
