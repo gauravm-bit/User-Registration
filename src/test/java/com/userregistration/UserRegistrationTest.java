@@ -31,12 +31,18 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenNumber_whenValid_thenTrue() {
+    public void giveNumber_whenValid_thenTrue() {
         Assert.assertTrue(UserRegistration.checkNumber("91 9769450660"));
     }
 
     @Test
-    public void ginNumber_whenInvalid_thenFalse(){
-        Assert.assertFalse(UserRegistration.checkNumber("696969696996969"));
+    public void givePassword_whenValid_thenTrue() {
+        Assert.assertTrue(UserRegistration.checkPassword("adsdaAD1#"));
     }
+
+    @Test
+    public void givePassword_whenInValid_thenFalse() {
+        Assert.assertFalse(UserRegistration.checkPassword("kalssd@#"));
+    }
+
 }
