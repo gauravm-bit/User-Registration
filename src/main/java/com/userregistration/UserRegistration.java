@@ -24,10 +24,7 @@ public class UserRegistration {
         return number.matches(PATTERN_NUMBER);
     }
 
-    public static boolean checkPassword(String password) {
-
-       return password.matches(PATTERN_PASSWORD);
-    }
+    public static boolean checkPassword(String password) { return password.matches(PATTERN_PASSWORD); }
 
 
 
