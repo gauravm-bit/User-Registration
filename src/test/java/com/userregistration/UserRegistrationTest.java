@@ -37,12 +37,12 @@ public class UserRegistrationTest {
 
     @Test
     public void givePassword_whenValid_thenTrue() {
-        Assert.assertTrue(UserRegistration.checkPassword("akjsDF1#"));
+        Assert.assertTrue(UserRegistration.checkPassword("adsdaAD1#"));
     }
 
     @Test
     public void givePassword_whenInValid_thenFalse() {
-        Assert.assertFalse(UserRegistration.checkPassword("kashdhs1233dASd#@"));
+        Assert.assertFalse(UserRegistration.checkPassword("kalssd@#"));
     }
 
 }
