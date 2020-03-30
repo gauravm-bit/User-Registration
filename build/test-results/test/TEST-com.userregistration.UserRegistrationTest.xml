@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-26T05:27:03" hostname="HP" time="0.009">
-  <properties/>
-  <testcase name="givePassword_whenInValid_thenFalse" classname="com.userregistration.UserRegistrationTest" time="0.009"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
